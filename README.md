@@ -1,8 +1,6 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
-  <img src="https://github.com/surajbadhe/TaskManager/blob/master/Task_Create_Update_Get_Demo_GIF.gif" width="500" height="500" />
-
-<head>
+ <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="https://stackedit.io/style.css" />
@@ -86,5 +84,5 @@ called saveTask which receives a json payload and saves it for future recall, on
 </ul>
 </div>
 </body>
-
+<img src="https://github.com/surajbadhe/TaskManager/blob/master/Task_Create_Update_Get_Demo_GIF.gif" width="1000" height="1000" />
 </html>

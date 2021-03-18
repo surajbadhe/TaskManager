@@ -1,0 +1,13 @@
+{
+    "channel": "",
+    "conversationId": "",
+    "country": "",
+    "json_data": {
+        "blob": "eyJvcmdfaWQiOiI2aXhucW5teSIsImFwaV9rZXkiOiIiLCJzZXNzaW9uX2lkIjoid2ViLWMxNjk2ODk5LWQwMTUtNDdjOS05NDcyLTlhNjY1ZTI4Y2VmOTE2MTIzNjk1OTQ3OTkiLCJhcGlfdHlwZSI6InNlc3Npb24tcXVlcnkiLCJzZXJ2aWNlX3R5cGUiOiJhbGwiLCJldmVudF90eXBlIjoibG9naW4iLCJwb2xpY3kiOiJ3dV9sb2dpbiIsInBhZ2VfaWQiOiIxIiwiaW5wdXRfaXBfYWRkcmVzcyI6IjI0NS4yNCiaWxlX2Jyb3dzZXIiLCJ3ZWJfc2Vzc2lvbl9pZCI6IndlYi1jMTY5Njg5OS1kMDE1LTQ3YzktOTQ3Mi05YTY2NWUyOGNlZjkiLCJvdXRwdXRfZm9ybWF0IjoianNvbiJ9",
+        "type": "THREAT_MET"
+    },
+    "security": {
+        "client_ip": "172058014251",
+        "auth_token": "web-c1696899-d015-47c9-9472-9a665e28cef9"
+    }
+}

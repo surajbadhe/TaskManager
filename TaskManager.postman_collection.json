@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "1b5197af-7a8f-40ee-9482-cc8a3293b5fe",
+		"name": "TaskManager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Service1- Create Task ",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth_token",
+						"value": "web-c1696899-d015-47c9-9472-9a665e28cef9",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"channel\": \"\",\r\n    \"conversationId\": \"\",\r\n    \"country\": \"\",\r\n    \"json_data\": {\r\n        \"blob\": \"eyJvcmdfaWQiOiI2aXhucW5teSIsImFwaV9rZXkiOiIiLCJzZXNzaW9uX2lkIjoid2ViLWMxNjk2ODk5LWQwMTUtNDdjOS05NDcyLTlhNjY1ZTI4Y2VmOTE2MTIzNjk1OTQ3OTkiLCJhcGlfdHlwZSI6InNlc3Npb24tcXVlcnkiLCJzZXJ2aWNlX3R5cGUiOiJhbGwiLCJldmVudF90eXBlIjoibG9naW4iLCJwb2xpY3kiOiJ3dV9sb2dpbiIsInBhZ2VfaWQiOiIxIiwiaW5wdXRfaXBfYWRkcmVzcyI6IjI0NS4yNCiaWxlX2Jyb3dzZXIiLCJ3ZWJfc2Vzc2lvbl9pZCI6IndlYi1jMTY5Njg5OS1kMDE1LTQ3YzktOTQ3Mi05YTY2NWUyOGNlZjkiLCJvdXRwdXRfZm9ybWF0IjoianNvbiJ9\",\r\n        \"type\": \"THREAT_MET\"\r\n    },\r\n    \"security\": {\r\n        \"client_ip\": \"172058014251\",\r\n        \"auth_token\": \"web-c1696899-d015-47c9-9472-9a665e28cef9\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/task",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Service 3- Get Task Deatils",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "auth_token",
+						"value": "web-c1696899-d015-47c9-9472-9a665e28cef9",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8081/api/task/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"task",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Service 2 - Update Task Status to Resume",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "auth_token",
+						"value": "web-c1696899-d015-47c9-9472-9a665e28cef9",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": {\r\n        \"created_at\": \"1612369604\",\r\n        \"expiring_at\": \"1612974404\",\r\n        \"type\": \"THREAT_MET\",\r\n        \"updated_at\": \"1612369604\",\r\n        \"task_token\" : \"ksekjhse230209kjsdsl\"\r\n    },\r\n    \"security\": {\r\n        \"client_ip\": \"172058014251\",\r\n            \"auth_token\": \"web-c1696899-d015-47c9-9472-9a665e28cef9\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/task/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"task",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

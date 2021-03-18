@@ -1,0 +1,13 @@
+{
+    "data": {
+        "created_at": "1612369604",
+        "expiring_at": "1612974404",
+        "type": "THREAT_MET",
+        "updated_at": "1612369604",
+        "task_token" : "ksekjhse230209kjsdsl"
+    },
+    "security": {
+        "client_ip": "172058014251",
+            "auth_token": "web-c1696899-d015-47c9-9472-9a665e28cef9"
+    }
+}

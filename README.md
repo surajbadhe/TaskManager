@@ -1,3 +1,5 @@
+ ![grab-landing-page](https://github.com/surajbadhe/TaskManager/blob/master/Task_Create_Update_Get_Demo_GIF.gif)
+ 
  <!DOCTYPE html>
 <html>
  <head>
@@ -86,4 +88,4 @@ called saveTask which receives a json payload and saves it for future recall, on
 </body>
 </html>
 
-![grab-landing-page](https://github.com/surajbadhe/TaskManager/blob/master/Task_Create_Update_Get_Demo_GIF.gif)
+

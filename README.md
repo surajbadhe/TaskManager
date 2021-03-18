@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <img src="https://github.com/surajbadhe/TaskManager/blob/master/Task_Create_Update_Get_Demo_GIF.gif" width="500" height="500" />
 
 <head>
   <meta charset="utf-8">
